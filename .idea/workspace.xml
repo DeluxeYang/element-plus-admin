@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2cea0b2-0213-46a4-a70a-0d848a590949" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/element-plus-admin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/module/menu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/module/tags.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/module/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/type/menu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/type/tags.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/layout/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/layout/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/content.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/menubar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/menubar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/menubarItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/menubarItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/tags.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/tags.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/redirect.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/redirect.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permission.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/permission.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/asyncRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/asyncRouter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/module/layout.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/type/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/type/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/type/store/layout.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/type/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/request.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/throttle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/throttle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/User/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/User/Login.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1naWDVnyPX4JrvfqQKuF1Xhi1id" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store/module" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="C:\Projects\element-plus-admin\node_modules\stylelint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Projects\element-plus-admin\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\element-plus-admin\src\store\module" />
+      <recent name="C:\Projects\element-plus-admin\src\store\type" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\element-plus-admin\src\store" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2cea0b2-0213-46a4-a70a-0d848a590949" name="Default Changelist" comment="" />
+      <created>1611628562939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611628562939</updated>
+      <workItem from="1611628564191" duration="18074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1408" y="-853" key="#JavaScript" timestamp="1611636195000">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1408" y="-853" key="#JavaScript/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611636195000" />
+    <state x="1371" y="-673" key="#Stylelint" timestamp="1611650776423">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1371" y="-673" key="#Stylelint/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611650776423" />
+    <state x="1393" y="-899" key="#TypeScript" timestamp="1611636925400">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1393" y="-899" key="#TypeScript/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611636925400" />
+    <state x="1139" y="-906" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611629143745">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1139" y="-906" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611629143745" />
+    <state x="1465" y="-806" key="FileChooserDialogImpl" timestamp="1611628569097">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1465" y="-806" key="FileChooserDialogImpl/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611628569097" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1611643377599">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611643377599" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1611643377599">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611643377599" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1611643377599">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611643377599" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1611643377599">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611643377599" />
+    <state x="1503" y="-859" key="RollbackChangesDialog" timestamp="1611631731609">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1503" y="-859" key="RollbackChangesDialog/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611631731609" />
+    <state x="1348" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1611648043447">
+      <screen x="725" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="1348" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611648043447" />
+  </component>
+</project>

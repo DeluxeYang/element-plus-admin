@@ -1,29 +1,14 @@
 export enum IMenubarStatus {
+    // eslint-disable-next-line no-unused-vars
     PCE,    // 电脑展开
+    // eslint-disable-next-line no-unused-vars
     PCN,    // 电脑合并
+    // eslint-disable-next-line no-unused-vars
     PHE,    // 手机展开
+    // eslint-disable-next-line no-unused-vars
     PHN     // 手机合并
 }
-export interface ILayout {
-    // 左侧导航栏
-    menubar: {
-        status: IMenubarStatus
-        menuList: Array<IMenubarList>
-        isPhone: boolean
-    }
-    // 用户信息
-    userInfo: {
-        name: string,
-        role: Array<string>
-    }
-    // 标签栏
-    tags: {
-        tagsList: Array<ITagsList>
-        cachedViews: Array<string>
-    }
-    ACCESS_TOKEN: string
-    isLoading: boolean
-}
+
 interface IMenubar {
     parentId?: number | string
     id?: number | string
@@ -39,18 +24,20 @@ interface IMenubar {
     }
     hidden?: boolean
 }
+
 export interface IMenubarList extends IMenubar {
+    // component: (() => Promise<typeof import('*.vue')>)
     component: (() => Promise<typeof import('*.vue')>)
     children?: Array<IMenubarList>
 }
+
 export interface IMenubarRoute extends IMenubar {
     component: string
     children?: Array<IMenubarRoute>
 }
 
-export interface ITagsList {
-    name: string
-    title: string
-    path: string
-    isActive: boolean
+export interface IMenu {
+    status: IMenubarStatus
+    menuList: Array<IMenubarList>
+    isPhone: boolean
 }

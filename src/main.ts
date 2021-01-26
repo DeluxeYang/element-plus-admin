@@ -3,7 +3,7 @@ import App from '/@/App.vue'
 import ElementPlus from 'element-plus'
 import direct from '/@/directive/action'
 import router from '/@/router/index'
-import { store } from '/@/store/index'
+import { store } from '/@/store'
 import '/@/mock/index'
 import '/@/permission'
 
