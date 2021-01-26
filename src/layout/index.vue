@@ -2,7 +2,7 @@
   <div class="layout flex h-screen">
     <div
       class="layout-sidebar-mask fixed w-screen h-screen bg-black bg-opacity-25 z-20"
-      :class="{&quot;hidden&quot;: menubar.status !== 2 }"
+      :class="{hidden: menubar.status !== 2 }"
       @click="changeCollapsed" />
     <div
       class="layout-sidebar flex flex-col bg-menubar h-screen transition-width duration-200 z-30"
@@ -39,9 +39,41 @@ import LayoutContent from '/@/layout/components/content.vue'
 import LayoutMenubar from '/@/layout/components/menubar.vue'
 import LayoutNavbar from '/@/layout/components/navbar.vue'
 import LayoutTags from '/@/layout/components/tags.vue'
+import LayoutTheme from '/@/layout/components/theme.vue'
+import { useStore } from '/@/store/index'
 import { useStore } from '/@/store'
 import throttle from '/@/utils/throttle'
 
+export default defineComponent ({
+    name: 'Layout',
+    components: {
+        LayoutContent,
+        LayoutMenubar,
+        LayoutNavbar,
+        LayoutTags,
+        LayoutTheme
+    },
+    setup() {
+        const store = useStore()
+        const changeDeviceWidth = ()=>store.commit('layout/changeDeviceWidth')
+        const changeCollapsed = ()=>store.commit('layout/changeCollapsed')
+
+        store.commit('layout/changeTheme')
+
+        onMounted(()=>{
+            changeDeviceWidth()
+            const throttleFn = throttle(300)
+            let throttleF = async function() {
+                await throttleFn()
+                changeDeviceWidth()
+            }
+            window.addEventListener('resize', throttleF, true)
+        })
+        return {
+            menubar: store.state.layout.menubar,
+            changeCollapsed
+        }
+    }
 export default defineComponent({
   name: 'Layout',
   components: {

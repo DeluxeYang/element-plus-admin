@@ -140,9 +140,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style scoped>
-.tags-bg {
-    background-color: #409eff;
-}
-</style>
