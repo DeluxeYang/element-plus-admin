@@ -9,7 +9,7 @@
     "stylelint": "npx stylelint **/*.{css,vue} --fix"
   },
   "dependencies": {
-    "element-plus": "^1.0.1-beta.27",
+    "element-plus": "^1.0.2-beta.30",
     "vue": "^3.0.5"
   },
   "devDependencies": {

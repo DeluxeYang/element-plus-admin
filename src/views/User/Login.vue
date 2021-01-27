@@ -48,7 +48,7 @@
 
 <script lang="ts">
 import { defineComponent, reactive, ref } from 'vue'
-import { store } from '/@/store/index'
+import { store } from '/@/store'
 import { ElNotification } from 'element-plus'
 import { validate, resetFields } from '/@/utils/formExtend'
 
@@ -58,7 +58,7 @@ const formRender = () => {
     pwd: 'admin'
   })
   const ruleForm = ref(null)
-  const enterSubmit = (e:KeyboardEvent) => {
+  const enterSubmit = (e: KeyboardEvent) => {
     if (e.keyCode === 13) {
       onSubmit()
     }
@@ -76,7 +76,7 @@ const formRender = () => {
   const rules = reactive({
     name: [
       {
-        validator: (rule: any, value: any, callback: (arg0?: Error|undefined) => void) => {
+        validator: (rule: any, value: any, callback: (arg0?: Error | undefined) => void) => {
           if (!value) {
             return callback(new Error('用户名不能为空'))
           }
@@ -86,7 +86,7 @@ const formRender = () => {
     ],
     pwd: [
       {
-        validator: (rule: any, value: any, callback: (arg0?: Error|undefined) => void) => {
+        validator: (rule: any, value: any, callback: (arg0?: Error | undefined) => void) => {
           if (!value) {
             return callback(new Error('密码不能为空'))
           }
@@ -103,54 +103,6 @@ const formRender = () => {
     resetFields,
     ruleForm
   }
-    let form = reactive({
-        name: 'admin',
-        pwd: 'admin',
-    })
-    const ruleForm = ref(null)
-    const enterSubmit = (e:KeyboardEvent) => {
-        if(e.key === 'Enter'){
-            onSubmit()
-        }
-    }
-    const onSubmit = async() => {
-        let { name, pwd } = form
-        if(!await validate(ruleForm)) return
-        await store.dispatch('layout/login', { username: name, password: pwd })
-        ElNotification({
-            title: '欢迎',
-            message: '欢迎回来',
-            type: 'success'
-        })
-    }
-    const rules = reactive({
-        name: [
-            { validator: (rule: any, value: any, callback: (arg0?: Error|undefined) => void) => {
-                if (!value) {
-                    return callback(new Error('用户名不能为空'))
-                }
-                callback()
-            }, trigger: 'blur'
-            }
-        ],
-        pwd: [
-            { validator: (rule: any, value: any, callback: (arg0?: Error|undefined) => void) => {
-                if (!value) {
-                    return callback(new Error('密码不能为空'))
-                }
-                callback()
-            }, trigger: 'blur'
-            }
-        ],
-    })
-    return {
-        form,
-        onSubmit,
-        enterSubmit,
-        rules,
-        resetFields,
-        ruleForm
-    }
 }
 export default defineComponent({
   name: 'Login',

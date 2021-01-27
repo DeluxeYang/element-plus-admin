@@ -1,5 +1,4 @@
-
-export interface ITheme {
+export interface IThemeItem {
     // logo不传则使用侧边栏sidebar样式
     logoColor?: string
     logoBg?: string
@@ -17,4 +16,9 @@ export interface ITheme {
     sidebarActiveColor: string
     sidebarActiveBg: string
     sidebarActiveBorderRightBG?: string
+}
+
+
+export interface ITheme {
+    theme: number
 }

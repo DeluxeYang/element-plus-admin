@@ -2,12 +2,12 @@
   <div class="flex items-center px-4">
     <span
       class="text-2xl cursor-pointer"
-      :class="{ &quot;el-icon-s-fold&quot;: !menubar.status, &quot;el-icon-s-unfold&quot;: menubar.status }"
+      :class="{ 'el-icon-s-fold': !menubar.status, 'el-icon-s-unfold': menubar.status }"
       @click="changeCollapsed" />
     <!-- 面包屑导航 -->
     <div class="px-4">
       <el-breadcrumb separator="/">
-        <el-breadcrumb-item :to="{ path: &quot;/&quot; }">
+        <el-breadcrumb-item :to="{ path: '/' }">
           主页
         </el-breadcrumb-item>
         <el-breadcrumb-item

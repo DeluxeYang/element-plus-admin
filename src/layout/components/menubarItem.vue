@@ -4,7 +4,7 @@
     :key="menuList.path"
     :index="menuList.path">
     <template #title>
-      <i :class="menuList.meta.icon || &quot;el-icon-location&quot;" />
+      <i :class="menuList.meta.icon || 'el-icon-location'" />
       <span>{{ menuList.meta.title }}</span>
     </template>
     <el-menu-item-group>
@@ -20,7 +20,7 @@
     v-else
     :key="menuList.path"
     :index="menuList.path">
-    <i :class="menuList.meta.icon || &quot;el-icon-setting&quot;" />
+    <i :class="menuList.meta.icon || 'el-icon-setting'" />
     <template #title>
       {{ menuList.meta.title }}
     </template>
