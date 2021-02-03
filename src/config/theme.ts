@@ -40,7 +40,24 @@ const theme:Array<IThemeItem> = [
     sidebarActiveColor: '#409EFF',
     sidebarActiveBg: '#1f2d3d',
     sidebarActiveBorderRightBG: '#409EFF'
-  }
+  },
+    {
+        logoColor: 'rgba(255,255,255,.7)',
+        logoBg: '#50314F',
+        navbarColor: 'rgba(255,255,255,.7)',
+        navbarBg: '#50314F',
+        tagsColor: '#333',
+        tagsBg: '#fff',
+        tagsActiveColor: '#fff',
+        tagsActiveBg: '#7A4D7B',
+        mainBg: '#f2f2f2',
+        sidebarColor: 'rgba(255,255,255,.7)',
+        sidebarBg: '#50314F',
+        sidebarChildrenBg: '#382237',
+        sidebarActiveColor: '#fff',
+        sidebarActiveBg: '#7A4D7B',
+        sidebarActiveBorderRightBG: '#7A4D7B'
+    }
 ]
 
 export default theme
