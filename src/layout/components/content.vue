@@ -6,7 +6,7 @@
         name="fade-transform"
         mode="out-in">
         <keep-alive
-          :include="data.cachedViews">
+          :include="tags.showTags ? data.cachedViews : []">
           <component
             :is="Component"
             :key="key"
@@ -40,7 +40,8 @@ export default defineComponent({
     )
     return {
       key,
-      data
+      data,
+      tags: store.state.tags
     }
   }
 })

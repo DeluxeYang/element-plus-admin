@@ -23,7 +23,9 @@
       <div class="layout-main-navbar flex justify-between items-center h-12 shadow-sm border-b border-gray-100">
         <layout-navbar />
       </div>
-      <div class="layout-main-tags h-10 leading-10 overflow-hidden shadow text-sm text-gray-600 px-3 position z-10">
+      <div
+        v-if="tags.showTags"
+        class="layout-main-tags h-10 leading-10 overflow-hidden shadow text-sm text-gray-600 px-3 position">
         <layout-tags />
       </div>
       <div class="layout-main-content flex-1 overflow-hidden">
@@ -73,6 +75,7 @@ export default defineComponent({
     })
     return {
       menubar: store.state.menu,
+      tags: store.state.tags,
       changeCollapsed
     }
   }

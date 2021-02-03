@@ -4,12 +4,13 @@
     @click="drawer=!drawer" />
   <el-drawer
     v-model="drawer"
-    title="主题设置">
+    title="主题设置"
+    size="260px">
     <el-row :gutter="20">
       <el-col
         v-for="(val,index) in theme"
         :key="index"
-        :span="6">
+        :span="8">
         <div
           class="flex shadow-lg border border-gray-100 w-18 cursor-pointer m-1"
           @click="changeTheme(index)">
@@ -40,11 +41,18 @@
         </div>
       </el-col>
     </el-row>
+
+    <div class="flex justify-between mt-5 px-2 py-1 items-center">
+      <div class="text-sm">
+        开启 Tags-View
+      </div>
+      <el-switch v-model="showTags" />
+    </div>
   </el-drawer>
 </template>
 
 <script lang='ts'>
-import { ref, defineComponent } from 'vue'
+import { ref, defineComponent, watch } from 'vue'
 import theme from '/@/config/theme'
 import { useStore } from '/@/store/'
 
@@ -54,12 +62,16 @@ export default defineComponent({
     const store = useStore()
     const drawer = ref(false)
     const changeTheme = (index:number) => store.commit('theme/changeTheme', index)
+    const showTags = ref(store.state.tags.showTags)
+
+    watch(() => showTags.value, () => store.commit('tags/changeTagsSetting', showTags.value))
 
     return {
       drawer,
       theme,
       changeTheme,
-      layout: store.state.theme
+      layout: store.state.theme,
+      showTags
     }
   }
 })

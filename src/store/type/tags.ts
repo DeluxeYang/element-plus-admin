@@ -8,4 +8,5 @@ export interface ITagsList {
 export interface ITags {
     tagsList: Array<ITagsList>
     cachedViews: Array<string>
+    showTags: boolean
 }

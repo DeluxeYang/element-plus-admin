@@ -1324,7 +1324,7 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*", "@types/jest@26.x", "@types/jest@^26.0.19":
+"@types/jest@*", "@types/jest@26.x", "@types/jest@^26.0.20":
   version "26.0.20"
   resolved "https://registry.npm.taobao.org/@types/jest/download/@types/jest-26.0.20.tgz?cache=0&sync_timestamp=1610007667256&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fjest%2Fdownload%2F%40types%2Fjest-26.0.20.tgz#cd2f2702ecf69e86b586e1f5223a60e454056307"
   integrity sha1-zS8nAuz2noa1huH1Ijpg5FQFYwc=
@@ -1496,7 +1496,7 @@
     "@typescript-eslint/types" "4.14.2"
     eslint-visitor-keys "^2.0.0"
 
-"@vitejs/plugin-vue@^1.1.0":
+"@vitejs/plugin-vue@^1.1.4":
   version "1.1.4"
   resolved "https://registry.npm.taobao.org/@vitejs/plugin-vue/download/@vitejs/plugin-vue-1.1.4.tgz#1dd388519b75439b7733601b55238ca691864796"
   integrity sha1-HdOIUZt1Q5t3M2AbVSOMppGGR5Y=
@@ -2710,7 +2710,7 @@ electron-to-chromium@^1.3.649:
   resolved "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.650.tgz?cache=0&sync_timestamp=1612206238260&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.650.tgz#24e821fff2ed61fd71fee092f2a0631b3c0c22a6"
   integrity sha1-JOgh//LtYf1x/uCS8qBjGzwMIqY=
 
-element-plus@^1.0.2-beta.30:
+element-plus@^1.0.2-beta.31:
   version "1.0.2-beta.31"
   resolved "https://registry.npm.taobao.org/element-plus/download/element-plus-1.0.2-beta.31.tgz#61a96111d9e9dc9d1ea511e213946db681471321"
   integrity sha1-YalhEdnp3J0epRHiE5RttoFHEyE=
@@ -6576,7 +6576,7 @@ vfile@^4.0.0:
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
 
-vite@^2.0.0-beta.9:
+vite@^2.0.0-beta.60:
   version "2.0.0-beta.62"
   resolved "https://registry.npm.taobao.org/vite/download/vite-2.0.0-beta.62.tgz#3227fc63ecd3d6fc67b1b95add68cdcde09844b2"
   integrity sha1-Mif8Y+zT1vxnsbla3WjNzeCYRLI=

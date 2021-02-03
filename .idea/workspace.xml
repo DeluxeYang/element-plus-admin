@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2cea0b2-0213-46a4-a70a-0d848a590949" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/theme.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/layout/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/layout/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/directive/action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/directive/action.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/content.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/notice.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/notice.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/tags.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/tags.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/theme.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/theme.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permission.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/permission.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/module/tags.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/module/tags.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/type/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/type/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/type/tags.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/type/tags.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/tools.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/tools.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/utils/format.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/test/utils/format.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +93,7 @@
       <workItem from="1611628564191" duration="19725000" />
       <workItem from="1611716394089" duration="6264000" />
       <workItem from="1612228428297" duration="1667000" />
-      <workItem from="1612317155455" duration="3216000" />
+      <workItem from="1612317155455" duration="12707000" />
     </task>
     <task id="LOCAL-00001" summary="修改State">
       <created>1611650900567</created>
@@ -91,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611650900567</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2021-2-3">
+      <created>1612321762484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612321762484</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +118,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="修改State" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改State" />
+    <MESSAGE value="2021-2-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021-2-3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1187" y="-845" width="902" height="562" key="#ESLint" timestamp="1612317496530">
@@ -123,10 +142,10 @@
       <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
     <state x="1139" y="-906" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611629143745" />
-    <state x="1283" y="-996" key="CommitChangelistDialog2" timestamp="1611650897931">
+    <state x="1283" y="-996" key="CommitChangelistDialog2" timestamp="1612321760741">
       <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="1283" y="-996" key="CommitChangelistDialog2/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611650897931" />
+    <state x="1283" y="-996" key="CommitChangelistDialog2/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612321760741" />
     <state x="1131" y="-870" key="DiffContextDialog" timestamp="1611650817546">
       <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
@@ -135,34 +154,34 @@
       <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
     <state x="1465" y="-806" key="FileChooserDialogImpl/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611628569097" />
-    <state width="1899" height="371" key="GridCell.Tab.0.bottom" timestamp="1612319769280">
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom" timestamp="1612333024697">
       <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
     <state width="1899" height="371" key="GridCell.Tab.0.bottom/0.0.1366.728/689.-1080.1920.1040@689.-1080.1920.1040" timestamp="1612318948188" />
-    <state width="1899" height="371" key="GridCell.Tab.0.bottom/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612319769280" />
-    <state width="1899" height="371" key="GridCell.Tab.0.center" timestamp="1612319769280">
+    <state width="1899" height="277" key="GridCell.Tab.0.bottom/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612333024697" />
+    <state width="1899" height="277" key="GridCell.Tab.0.center" timestamp="1612333024696">
       <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
     <state width="1899" height="371" key="GridCell.Tab.0.center/0.0.1366.728/689.-1080.1920.1040@689.-1080.1920.1040" timestamp="1612318948188" />
-    <state width="1899" height="371" key="GridCell.Tab.0.center/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612319769280" />
-    <state width="1899" height="371" key="GridCell.Tab.0.left" timestamp="1612319769280">
+    <state width="1899" height="277" key="GridCell.Tab.0.center/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612333024696" />
+    <state width="1899" height="277" key="GridCell.Tab.0.left" timestamp="1612333024696">
       <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
     <state width="1899" height="371" key="GridCell.Tab.0.left/0.0.1366.728/689.-1080.1920.1040@689.-1080.1920.1040" timestamp="1612318948188" />
-    <state width="1899" height="371" key="GridCell.Tab.0.left/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612319769280" />
-    <state width="1899" height="371" key="GridCell.Tab.0.right" timestamp="1612319769280">
+    <state width="1899" height="277" key="GridCell.Tab.0.left/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612333024696" />
+    <state width="1899" height="277" key="GridCell.Tab.0.right" timestamp="1612333024697">
       <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
     <state width="1899" height="371" key="GridCell.Tab.0.right/0.0.1366.728/689.-1080.1920.1040@689.-1080.1920.1040" timestamp="1612318948188" />
-    <state width="1899" height="371" key="GridCell.Tab.0.right/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612319769280" />
-    <state x="-1195" y="-1083" width="1920" height="1040" key="MergeDialog" timestamp="1611651261888">
+    <state width="1899" height="277" key="GridCell.Tab.0.right/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612333024697" />
+    <state x="-1195" y="-1083" width="1920" height="1040" key="MergeDialog" timestamp="1612323439789">
       <screen x="-1195" y="-1083" width="1920" height="1040" />
     </state>
-    <state x="-1195" y="-1083" width="1920" height="1040" key="MergeDialog/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611651261888" />
-    <state x="1320" y="-800" key="MultipleFileMergeDialog" timestamp="1611651261904">
+    <state x="-1195" y="-1083" width="1920" height="1040" key="MergeDialog/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612323439789" />
+    <state x="819" y="-775" width="1141" height="480" key="MultipleFileMergeDialog" timestamp="1612323558407">
       <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="1320" y="-800" key="MultipleFileMergeDialog/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1611651261904" />
+    <state x="819" y="-775" width="1141" height="480" key="MultipleFileMergeDialog/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612323558407" />
     <state x="1503" y="-859" key="RollbackChangesDialog" timestamp="1611631731609">
       <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
@@ -171,9 +190,10 @@
       <screen x="689" y="-1080" width="1920" height="1040" />
     </state>
     <state x="1452" y="-648" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/689.-1080.1920.1040@689.-1080.1920.1040" timestamp="1612228476212" />
-    <state x="505" y="299" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612230102827">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1435" y="-653" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1612321575685">
+      <screen x="725" y="-1080" width="1920" height="1040" />
     </state>
+    <state x="1435" y="-653" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728/725.-1080.1920.1040/-1195.-1083.1920.1040@725.-1080.1920.1040" timestamp="1612321575685" />
     <state x="505" y="299" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612230102827" />
     <state x="1348" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1611648043447">
       <screen x="725" y="-1080" width="1920" height="1040" />

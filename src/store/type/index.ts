@@ -1,6 +1,12 @@
 import { IMenu } from '/@/store/type/menu'
 import { ITags } from '/@/store/type/tags'
 import { IUser } from '/@/store/type/user'
+import { ITheme } from '/@/store/type/theme'
+
+
+export interface IObject<T> {
+    [index: string]: T
+}
 
 
 export interface IState {
@@ -10,5 +16,6 @@ export interface IState {
     user: IUser
     // 标签栏
     tags: ITags
+    theme: ITheme
     isLoading: boolean
 }
