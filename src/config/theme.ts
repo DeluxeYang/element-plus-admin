@@ -2,6 +2,7 @@ import { IThemeItem } from '/@/store/type/theme'
 
 const theme:Array<IThemeItem> = [
   {
+    logoBg: '#0e3a68',
     tagsActiveColor: '#fff',
     tagsActiveBg: '#409EFF',
     mainBg: '#f2f2f2',
